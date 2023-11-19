@@ -1,0 +1,62 @@
+header {
+  margin: 10px 0 10px 0;
+  border-top: 1px solid #f5f7f8;
+  border-bottom: 1px solid #f4f5f7;
+  padding: 15px 0 15px 0;
+}
+.info-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.info-bar1 {
+  font-family: "PuradakGentleGothicR";
+  width: 100vw;
+}
+.info-bar1_icon {
+  position: absolute;
+  cursor: pointer;
+  padding-left: 10px;
+  width: 30px;
+  align-items: center;
+}
+.info-bar1_text {
+  color: rgb(183, 154, 123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 30px;
+}
+.info-bar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.info-bar2_icons {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding-right: 200px;
+  width: 40px;
+}
+.info-bar2_btn {
+  color: rgb(193, 163, 153);
+  font-weight: bold;
+  border: 2px solid rgb(246, 243, 243);
+  padding: 7px 20px 7px 20px;
+  border-radius: 20px;
+  font-size: 12px;
+  position: absolute;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.info-bar2_icons img {
+  margin: 0 3px 0 3px;
+}

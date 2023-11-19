@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle!!!!!</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/headerpont.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+
+  <body>
+    <div>
+      <style>
+        body {
+          cursor: url(cursor.png), auto;
+        }
+        button {
+          cursor: url(cursor.png), auto;
+        }
+      </style>
+    </div>
+    <header>
+      <div class="info-bar">
+        <div class="info-bar1">
+          <div class="info-bar1_icon">
+            <img src="assets/menu.svg" alt="menu" />
+          </div>
+          <span class="info-bar1_text">Wordle</span>
+        </div>
+        <div class="info-bar2">
+          <div class="info-bar2_icons">
+            <img src="assets/question.svg" alt="" />
+            <img src="assets/bar.svg" alt="" />
+            <img src="assets/setting.svg" alt="" />
+          </div>
+          <div class="info-bar2_btn">Subscribe to Games</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1 id="time">00:00</h1>
+
+      <div class="board-row row-0">
+        <div class="board-block" data-index="00"></div>
+        <div class="board-block" data-index="01"></div>
+        <div class="board-block" data-index="02"></div>
+        <div class="board-block" data-index="03"></div>
+        <div class="board-block" data-index="04"></div>
+      </div>
+      <div class="board-row row-1">
+        <div class="board-block" data-index="10"></div>
+        <div class="board-block" data-index="11"></div>
+        <div class="board-block" data-index="12"></div>
+        <div class="board-block" data-index="13"></div>
+        <div class="board-block" data-index="14"></div>
+      </div>
+      <div class="board-row row-2">
+        <div class="board-block" data-index="20"></div>
+        <div class="board-block" data-index="21"></div>
+        <div class="board-block" data-index="22"></div>
+        <div class="board-block" data-index="23"></div>
+        <div class="board-block" data-index="24"></div>
+      </div>
+      <div class="board-row row-3">
+        <div class="board-block" data-index="30"></div>
+        <div class="board-block" data-index="31"></div>
+        <div class="board-block" data-index="32"></div>
+        <div class="board-block" data-index="33"></div>
+        <div class="board-block" data-index="34"></div>
+      </div>
+      <div class="board-row row-4">
+        <div class="board-block" data-index="40"></div>
+        <div class="board-block" data-index="41"></div>
+        <div class="board-block" data-index="42"></div>
+        <div class="board-block" data-index="43"></div>
+        <div class="board-block" data-index="44"></div>
+      </div>
+      <div class="board-row row-5">
+        <div class="board-block" data-index="50"></div>
+        <div class="board-block" data-index="51"></div>
+        <div class="board-block" data-index="52"></div>
+        <div class="board-block" data-index="53"></div>
+        <div class="board-block" data-index="54"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="keybord-top">
+        <button class="keybord-top_Q" data-key="Q">Q</button>
+        <button class="keybord-top_W" data-key="W">W</button>
+        <button class="keybord-top_E" data-key="E">E</button>
+        <button class="keybord-top_R" data-key="R">R</button>
+        <button class="keybord-top_T" data-key="T">T</button>
+        <button class="keybord-top_Y" data-key="Y">Y</button>
+        <button class="keybord-top_U" data-key="U">U</button>
+        <button class="keybord-top_I" data-key="I">I</button>
+        <button class="keybord-top_O" data-key="O">O</button>
+        <button class="keybord-top_P" data-key="P">P</button>
+      </div>
+      <div class="keybord-middle">
+        <button class="keybord-middle_A" data-key="A">A</button>
+        <button class="keybord-middle_S" data-key="S">S</button>
+        <button class="keybord-middle_D" data-key="D">D</button>
+        <button class="keybord-middle_F" data-key="F">F</button>
+        <button class="keybord-middle_G" data-key="G">G</button>
+        <button class="keybord-middle_H" data-key="H">H</button>
+        <button class="keybord-middle_J" data-key="J">J</button>
+        <button class="keybord-middle_K" data-key="K">K</button>
+        <button class="keybord-middle_L" data-key="L">L</button>
+      </div>
+      <div class="keybord-bottom">
+        <button class="keybord-bottom_ENTER" data-key="ENTER">ENTER</button>
+        <button class="keybord-bottom_Z" data-key="Z">Z</button>
+        <button class="keybord-bottom_X" data-key="X">X</button>
+        <button class="keybord-bottom_C" data-key="C">C</button>
+        <button class="keybord-bottom_V" data-key="V">V</button>
+        <button class="keybord-bottom_B" data-key="B">B</button>
+        <button class="keybord-bottom_N" data-key="N">N</button>
+        <button class="keybord-bottom_M" data-key="M">M</button>
+        <button class="keybord-bottom_⌫" data-key="⌫">⌫</button>
+      </div>
+    </footer>
+    <div class="media-info-msg">⌈ 화면 사이즈를 줄여주세요 ⌋</div>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+.keybord-top,
+.keybord-middle,
+.keybord-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.keybord-top_Q,
+.keybord-top_E,
+.keybord-top_R,
+.keybord-top_T,
+.keybord-top_Y,
+.keybord-top_U,
+.keybord-top_O,
+.keybord-top_P {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 15px 18px 15px;
+  margin-right: 7px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+}
+.keybord-top_W {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 12px 18px 12px;
+  margin-right: 5px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+}
+.keybord-top_I {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 19px 18px 19px;
+  margin-right: 5px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+} /*------------------------------------------TOP----*/
+.keybord-middle_A,
+.keybord-middle_S,
+.keybord-middle_D,
+.keybord-middle_F,
+.keybord-middle_G,
+.keybord-middle_H,
+.keybord-middle_K {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 15px 18px 15px;
+  margin-right: 7px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+}
+.keybord-middle_J,
+.keybord-middle_L {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 17px 18px 17px;
+  margin-right: 5px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+} /*----------------------------------------MIDLE----*/
+.keybord-bottom_Z,
+.keybord-bottom_X,
+.keybord-bottom_C,
+.keybord-bottom_V,
+.keybord-bottom_B,
+.keybord-bottom_N,
+.keybord-bottom_M {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 15px 18px 15px;
+  margin-right: 7px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+}
+.keybord-bottom_ENTER {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 15px 18px 15px;
+  margin-right: 5px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+}
+.keybord-bottom_⌫ {
+  transition: all 0.3s ease;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  border-radius: 5px;
+  background-color: rgb(211, 214, 218);
+  padding: 18px 22px 18px 22px;
+  margin-right: 5px;
+  background-color: transparent;
+  border-color: azure;
+  color: rgb(182, 132, 108);
+} /*------------------------------------bottom-----------*/
+
+.block {
+  animation: bounce 1s infinite;
+}
+@keyframes blockMotion {
+  0% {
+    transform: rotate(0deg);
+  }
+  45% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
